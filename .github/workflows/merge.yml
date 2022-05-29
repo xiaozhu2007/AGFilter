@@ -1,1 +1,27 @@
+on:
+  push:
+    branches:
+    - master
+    
+  schedule:
+  - cron: "0 4,12 * * *"
+  
+jobs:
+  merge:
+    name: Merge src to a file
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
 
+      - name: Merge and Commit files
+        run: |
+          cat ./src/Header.txt ./src/ad.txt ./src/css-extended.txt ./src/url-blocking.txt ./src/whitelist.txt > ./all-in-one.txt
+          git config --global user.name "userName"  //你的用户名
+          git config --global user.email "email address" //你的邮箱地址
+          git pull
+          git add .
+          git commit --allow-empty -m "update: `date '+%Y-%m-%d %H:%M:%S'` all-in-one"
+          git push
+          echo Success!
