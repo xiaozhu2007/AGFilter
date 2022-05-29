@@ -1,0 +1,20 @@
+! Title: AGFilter
+!
+! Description: Self-use AdGuard Filter Rules.
+! Homepage: https://github.com/xiaozhu2007/AGFilter
+! License: https://github.com/xiaozhu2007/AGFilter/blob/master/LICENSE
+! Last modified: 2022-05-29
+!
+! /------------------------------------------
+! |Homepage URL: https://github.com/xiaozhu2007/AGFilter/
+! |Count: 400+ rules
+! |Size: 15KB+
+! |
+! |Credits & ©: 甜力怕(xiaozhu2007) Zhen Chan(AGDDoS-bot)
+! |Licence: MIT
+! /
+!  Please report any issues related to this file.
+! \......................................
+! | Issues: github.com/xiaozhu2007/AGFilter/issues
+! | E-mail: lz19986912007@163.com
+! \-------------------------------------------
