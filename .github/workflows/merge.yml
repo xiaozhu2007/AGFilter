@@ -22,6 +22,8 @@ jobs:
           cat ./src/css-extended.txt >> ./all-in-one.txt
           cat ./src/url-blocking.txt >> ./all-in-one.txt
           cat ./src/whitelist.txt >> ./all-in-one.txt
+          cat ./src/malware.txt >> ./all-in-one.txt
+          echo "! End" >> ./all-in-one.txt
           git version
           sleep 1
           git config --global user.name "AGDDoS-bot"
