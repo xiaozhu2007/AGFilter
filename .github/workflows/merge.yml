@@ -4,7 +4,7 @@ on:
     - master
     
   schedule:
-  - cron: "0 4,12 * * *"
+  - cron: "0 6,12 * * *"
   
 jobs:
   merge:
