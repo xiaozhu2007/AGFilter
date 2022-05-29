@@ -415,3 +415,62 @@ _click*(com?
 @@||github.io^
 @@||workers.dev^
 @@||pages.dev^
+!
+! This section contains the list of malware domains for devices.
+!
+! ||mobileapptracking.com^ - don't block this domain with all subdomains. https://forum.adguard.com/index.php?threads/23917/
+!
+! FluBot / Cabassous malware
+! https://github.com/prodaft/malware-ioc/tree/master/FluBot
+||xjnwqdospderqtk.ru^
+||nfiuerwtftasnuk.com^
+||qoisocrldvnesni.ru^
+||xawsnngjljanxof.su^
+||bdvwidxfiextwof.ru^
+||krvpsegjeukhoqk.su^
+||auqcmkubxjmeeyf.ru^
+||vloxaloyfmdqxti.ru^
+
+! Fodcha
+! https://blog.netlab.360.com/men-sheng-fa-da-cai-fodchajiang-shi-wang-luo/
+||folded.in^
+||fridgexperts.cc^
+
+! Rippr
+! https://blog.netlab.360.com/botnet-group-behind-attack-bjjkb/
+||iwishiwasnormal.ru
+||ilikefishing.xyz
+||iranistrash.cc
+||dota.zzzsleepisnicezzz.art 
+||dota.iwishiwashappy.eu
+||dota.uiasuibasdbui.art
+
+! B1txor20
+! https://blog.netlab.360.com/b1txor20-use-of-dns-tunneling_cn/
+||webserv.systems
+||194.165.16.24:53
+||194.165.16.24:443
+
+! EwDoor
+! https://blog.netlab.360.com/warning-ewdoor-botnet-is-attacking-att-customers_cn/
+||http://185.10.68.20:1234/ew-new.sh
+||http://185.10.68.20:1234/ew.sh
+||http://185.10.68.20:1234/prod/mips
+||http://185.10.68.20:1234/ramdisk.img.gz
+||http://212.193.30.209/61501e55/mips
+||http://212.193.30.209/859b6cfa.sh
+||185.10.68.20
+||rtmxvd.iunno.se
+||ekgmua.zapto.org
+||boatreviews.xpresit.net
+||a.rtmxvdio.net
+||a.hatbowlu3hf.ru
+||a.hatbowlrtx.su
+||45.141.157.217
+||rtmxvd.iunno.se
+||hhqnyy.zapto.org
+||besthatsite.mooo.com
+||b.rtmxvdio.net
+||b.hatbowlu3hf.ru
+||b.hatbowlrtx.su
+! End
