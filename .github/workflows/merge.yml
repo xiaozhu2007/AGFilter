@@ -20,7 +20,7 @@ jobs:
           cat ./src/Header.txt > ./all-in-one.txt
           cat ./src/ad.txt >> ./all-in-one.txt
           cat ./src/css-extended.txt >> ./all-in-one.txt
-          cat ./src/url-blocking.txt ./src/whitelist.txt >> ./all-in-one.txt
+          cat ./src/url-blocking.txt >> ./all-in-one.txt
           cat ./src/whitelist.txt >> ./all-in-one.txt
           git version
           sleep 1
@@ -29,7 +29,7 @@ jobs:
           sleep 1
           git pull
           git add .
-          git commit --allow-empty -m "update: `date '+%Y-%m-%d %H:%M:%S'` all-in-one"
+          git commit --allow-empty -m "update: `date '+%Y-%m-%d %H:%M:%S'` all-in-one [skip ci]"
           sleep 1
           git push
           echo Success!
